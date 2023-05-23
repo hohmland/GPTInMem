@@ -1,0 +1,31 @@
+{
+  "name": "gptinmem",
+  "version": "1.0.0",
+  "description": "Applications wholly contained within GPT using context window as memory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hohmland/GPTInMem.git"
+  },
+  "keywords": [
+    "gpt",
+    "inline",
+    "memory"
+  ],
+  "author": "hohmland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hohmland/GPTInMem/issues"
+  },
+  "homepage": "https://github.com/hohmland/GPTInMem#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
